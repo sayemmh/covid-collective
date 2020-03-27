@@ -3,14 +3,14 @@ import styled from "styled-components";
 import { themeColor } from "styleguide/colors";
 
 const StyledContainer = styled.span`
-  align-items: center;
+  align-items: right;
   display: block;
   & > span {
     margin-top: auto;
   }
   .icon {
     color: ${themeColor};
-    font-size: 12px;
+    font-size: 13px;
     margin-left: 5px;
   }
 `;

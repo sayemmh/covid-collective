@@ -8,6 +8,8 @@
     "We are a team of American medical students working with board certified physicians crowdsourcing information on the characteristics, symptoms, and presentation of COVID-19. Healthcare personnel are struggling with the variable presentation and course of COVID-19. We must rely on the experiences of each other to help fight this disease. The data will provide healthcare workers on the front line with the most up to date information on the illness course and treatment. Any information that you provide is completely anonymous and could help save lives.",
   "dataAccess":
     "We're building an anonymous crowdsourced collection of COVID-19 survey data to help physicians and researchers understand the disease. We will not share your email address if you opt to share it with us.",
+  "contactus":
+    "Have feedback, questions, concerns, or want to collaborate? Reach us at covidcollective@gmail.com",
   "socialLinks": [
     {
       "name": "Instagram",

@@ -10,10 +10,8 @@ const StyledFooter = styled.footer`
   display: flex;
   color: ${grayLight};
   justify-content: space-between;
+  background-color: #2a2a2a;
+  height: 600px;
 `;
 
-export const Footer = () => (
-  <StyledFooter>
-    <MadeWith description="Made with React and" />
-  </StyledFooter>
-);
+export const Footer = () => <StyledFooter />;

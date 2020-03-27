@@ -8,7 +8,8 @@ import {
   blurb2,
   whoweare,
   socialLinks,
-  dataAccess
+  dataAccess,
+  contactus
 } from "./../../profile.json";
 
 import { Blurb } from "./blurb";
@@ -20,6 +21,7 @@ import { LogoBlob } from "./logoblob";
 import heart from "../../assets/profile.jpg";
 import logo from "../../assets/logo.jpg";
 import { SurveyButton } from "./surveybutton";
+import { Background } from "./background";
 
 console.log(headerHeight);
 const StyledContent = styled.main`
@@ -48,10 +50,11 @@ export const Body = () => (
       <Blurb blurb={whoweare} />
       <Header text="Data" />
       <Blurb blurb={dataAccess} />
-      <Header text="Share us!" />
+      <Header text="Share" />
       <Blurb blurb={blurb2} />
       <SocialArea socialLinks={socialLinks} />
-      <ImageBlob imageUrl={heart} />
+      <Header text="Contact us" />
+      <Blurb blurb={contactus} />
     </StyledContent>
     <Footer />
   </Wrapper>

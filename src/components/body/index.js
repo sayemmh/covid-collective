@@ -15,8 +15,10 @@ import { Blurb } from "./blurb";
 import { SocialArea } from "./social-area";
 import { Footer } from "../footer";
 import { headerHeight } from "styleguide/breakpoints";
-import { ProfileImage } from "./profile-image";
-import imageUrl from "../../assets/profile.jpg";
+import { ImageBlob } from "./imageblob";
+import { LogoBlob } from "./logoblob";
+import heart from "../../assets/profile.jpg";
+import logo from "../../assets/logo.jpg";
 import { SurveyButton } from "./surveybutton";
 
 console.log(headerHeight);
@@ -40,14 +42,15 @@ export const Body = () => (
       <Title name={calltoaction} />
       <Blurb blurb={blurb} />
       <SurveyButton />
-      <Blurb blurb={blurb2} />
-      <ProfileImage imageUrl={imageUrl} />
+      <LogoBlob imageUrl={logo} />
       <Header text="About Us" />
       <Blurb blurb={whoweare} />
       <Header text="Data" />
       <Blurb blurb={dataAccess} />
       <Header text="Share us!" />
+      <Blurb blurb={blurb2} />
       <SocialArea socialLinks={socialLinks} />
+      <ImageBlob imageUrl={heart} />
     </StyledContent>
     <Footer />
   </Wrapper>

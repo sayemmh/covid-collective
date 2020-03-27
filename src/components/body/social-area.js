@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { themeColor, grayLight } from "styleguide/colors";
 
 const StyledSocialArea = styled.div`
   padding: 2rem;
@@ -9,16 +8,16 @@ const StyledSocialArea = styled.div`
 `;
 
 const StyledMedia = styled.a`
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
   &:active,
   &:link,
   &:visited {
-    color: ${grayLight};
+    color: grey;
     text-decoration: none;
     outline: none;
   }
   &:hover {
-    color: ${themeColor};
+    color: black;
     cursor: pointer;
   }
 `;

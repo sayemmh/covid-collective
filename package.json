@@ -22,7 +22,7 @@
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "parcel-bundler": "^1.10.3"
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "react": ">=15",
     "react-dom": "^16.5.0",
     "react-router-dom": "^5.1.2",
+    "react-share": "^4.1.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2",
     "styled": "^1.0.0",

@@ -20,11 +20,6 @@
       "name": "Twitter",
       "icon": "fa-twitter",
       "link": "https://twitter.com/covidfyi"
-    },
-    {
-      "name": "LinkedIn",
-      "icon": "fa-linkedin",
-      "link": "https://link-your-linkedin"
     }
   ]
 }

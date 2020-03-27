@@ -42,8 +42,9 @@ export const Body = () => (
       <Title name={calltoaction} />
       <Blurb blurb={blurb} />
       <SurveyButton />
+      <Blurb blurb="1 people have shared their data so far" />
       <LogoBlob imageUrl={logo} />
-      <Header text="About Us" />
+      <Title name="Covid Data Collective" />
       <Blurb blurb={whoweare} />
       <Header text="Data" />
       <Blurb blurb={dataAccess} />

@@ -7,6 +7,7 @@ export const SurveyButton = () => (
   <Button
     onClick={() => window.open("https://forms.gle/NjkLp5xTVaUmv7cf8")}
     size="huge"
+    color="blue"
   >
     Contribute Your Data
   </Button>

@@ -1,20 +1,17 @@
 {
-  "pageTitle": "Covid Data Collective",
-  "name": "Help us ",
-  "themeColor": "",
-  "location": "Silicon Valley, California",
+  "calltoaction": "Help us beat COVID-19.",
   "biography":
-    "Lorem ipsum dolor sit amet, ex quod graeci vituperata per, recusabo comprehensam vel id. Vim oblique recteque at. Doming torquatos an quo. Duis meis zril vim ea. Homero doming sit cu, ei laudem maiorum appetere sit. Deleniti atomorum eu sit. Ne iudico liberavisse sea. Nam at erant debitis, erant efficiendi cum in, ut pro iusto quaestio iudicabit.",
+    "If you have symptoms or have tested positive for COVID-19 and are willing to take an anonymous survey to contribute to scientific research and potential treatments, please take our survey:",
   "socialLinks": [
     {
-      "name": "Github",
-      "icon": "fa-github",
-      "link": "https://link-your-github"
+      "name": "Instagram",
+      "icon": "fa-instagram",
+      "link": "https://instagram.com/covidfyi"
     },
     {
-      "name": "CodePen",
-      "icon": "fa-codepen",
-      "link": "https://link-your-codepen"
+      "name": "Twitter",
+      "icon": "fa-twitter",
+      "link": "https://twitter.com/covidfyi"
     },
     {
       "name": "LinkedIn",

@@ -14,8 +14,8 @@
     "minimalist-site",
     "minimal"
   ],
-  "author": "Marcos Vinicius de Oliveira Pereira",
-  "license": "WTFPL",
+  "author": "Sayem Hoque",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

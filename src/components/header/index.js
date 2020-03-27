@@ -13,7 +13,7 @@ const StyledHeader = styled.header`
 
 export const Header = () => (
   <StyledHeader>
-    <Background imageUrl={bricks} />
+    <Background />
     <ProfileImage imageUrl={imageUrl} />
   </StyledHeader>
 );

@@ -1,18 +1,16 @@
-import React from 'react';
-import styled from 'styled-components';
-import { gray } from 'styleguide/colors';
-import { mobileScreenSize } from 'styleguide/breakpoints';
+import React from "react";
+import styled from "styled-components";
+import { mobileScreenSize } from "styleguide/breakpoints";
 
 const StyledBiography = styled.p`
-  color: ${gray};
-  @media screen and (min-width:${mobileScreenSize}){
-    max-width: 900px;
+  color: black};
+  @media screen and (min-width: ${mobileScreenSize}) {
+    max-width: 700px;
   }
   margin: 0 auto;
-`
+  padding: 20px;
+`;
 
-export const Biography = ({biography}) => (
-  <StyledBiography>
-    {biography}
-  </StyledBiography>
-  )
+export const Biography = ({ biography }) => (
+  <StyledBiography>{biography}</StyledBiography>
+);

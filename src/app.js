@@ -1,8 +1,7 @@
 import React from "react";
 import { Header } from "./components/header";
-import { UserProfile } from "./components/body";
+import { Body } from "./components/body";
 import { injectGlobal } from "styled-components";
-import { pageTitle } from "./profile.json";
 import { mobileScreenSize } from "styleguide/breakpoints";
 
 injectGlobal`
@@ -15,17 +14,16 @@ injectGlobal`
   }
 
   body, html, #app {
-  font-family: 'Montserrat';
+  font-family: 'Lato', sans-serif;
   padding:0;
   margin:0;
   height: 100%;
 }
 `;
-document.title = pageTitle || "Covid Data Collective";
+document.title = "Covid Data Collective";
 
 export const App = () => (
   <React.Fragment>
-    <Header />
-    <UserProfile />
+    <Body />
   </React.Fragment>
 );

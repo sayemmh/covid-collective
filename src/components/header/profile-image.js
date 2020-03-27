@@ -10,9 +10,9 @@ const StyledProfileImage = styled.div`
   position: absolute;
   margin: 0 auto;
   left: 0;
-  right: 0;
+  right: 50%;
   padding: 5px;
-  top: 30%;
+  top: 20%;
 
   @media screen and (max-width: 500px) {
     height: 140px;

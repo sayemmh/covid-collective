@@ -7,7 +7,7 @@ const StyledBackground = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(${props => props.imageUrl});
+  background-color: #858585;
   filter: grayscale(1);
 `;
 

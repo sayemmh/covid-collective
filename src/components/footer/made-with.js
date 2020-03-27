@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { themeColor } from 'styleguide/colors';
+import React from "react";
+import styled from "styled-components";
+import { themeColor } from "styleguide/colors";
 
 const StyledContainer = styled.span`
   align-items: center;
@@ -13,11 +13,10 @@ const StyledContainer = styled.span`
     font-size: 12px;
     margin-left: 5px;
   }
-`
+`;
 
-export const MadeWith = ({ description }) =>
-(
+export const MadeWith = ({ description }) => (
   <StyledContainer>
-    {description} <span className='icon'>❤</span>
+    {description} <span className="icon">❤</span>
   </StyledContainer>
-)
+);

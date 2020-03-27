@@ -1,5 +1,5 @@
 {
-  "name": "minimalist-profile",
+  "name": "covid-collective",
   "version": "1.0.0",
   "description": "A simple and minimalist template for profile website",
   "main": "index.js",
@@ -28,6 +28,7 @@
   "dependencies": {
     "assets": "^3.0.0",
     "font-awesome": "^4.7.0",
+    "npm": "^6.14.4",
     "ramda": "^0.25.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",

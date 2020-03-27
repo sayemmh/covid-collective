@@ -11,7 +11,7 @@ const StyledBlurb = styled.p`
   margin: 0 auto;
   margin-top: 40px;
   padding: 0px;
-  height: 450px;
+  height: 350px;
   width: 100%;
   top: 20px;
   background-repeat: no-repeat;

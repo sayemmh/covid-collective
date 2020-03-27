@@ -50,10 +50,9 @@ export const Body = () => (
       <Blurb blurb={whoweare} />
       <Header text="Data" />
       <Blurb blurb={dataAccess} />
-      <Header text="Share" />
-      <Blurb blurb={blurb2} />
 
-      <Header text="Contact us" />
+      <Header text="Contact" />
+      <Blurb blurb={blurb2} />
       <Blurb blurb={contactus} />
       <SocialArea socialLinks={socialLinks} />
     </StyledContent>

@@ -25,5 +25,16 @@ document.title = "Covid Data Collective";
 export const App = () => (
   <React.Fragment>
     <Body />
+    <a
+      class="twitter-timeline"
+      href="https://twitter.com/briantimar/lists/people-to-follow?ref_src=twsrc%5Etfw"
+    >
+      A Twitter List by briantimar
+    </a>{" "}
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    />
   </React.Fragment>
 );

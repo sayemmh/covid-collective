@@ -9,6 +9,6 @@ export const SurveyButton = () => (
     size="huge"
     color="blue"
   >
-    Contribute Your Data
+    Take Our Survey!
   </Button>
 );

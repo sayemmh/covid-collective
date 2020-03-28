@@ -9,10 +9,12 @@ import {
   whoweare,
   socialLinks,
   dataAccess,
-  contactus
+  contactus,
+  disclaimer
 } from "./../../profile.json";
 
 import { Blurb } from "./blurb";
+import { Disclaimer } from "./disclaimer";
 import { SocialArea } from "./social-area";
 import { Footer } from "../footer";
 import { headerHeight } from "styleguide/breakpoints";
@@ -55,6 +57,7 @@ export const Body = () => (
 
       <Blurb blurb={contactus} />
       <SocialArea socialLinks={socialLinks} />
+      <Disclaimer blurb={disclaimer} />
     </StyledContent>
     <Footer />
   </Wrapper>

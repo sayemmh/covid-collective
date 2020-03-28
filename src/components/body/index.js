@@ -45,8 +45,9 @@ export const Body = () => (
     <StyledContent>
       <Title name={calltoaction} />
       <Blurb blurb={blurb} />
+      <Blurb blurb={blurb2} />
       <SurveyButton />
-      <Blurb blurb="1 people have shared their data so far" />
+      <Blurb blurb="2 people have shared their data so far" />
       <LogoBlob imageUrl={logo} />
       <Title name="Covid Data Collective" />
       <Blurb blurb={whoweare} />

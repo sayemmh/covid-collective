@@ -52,7 +52,7 @@ export const Body = () => (
       <Blurb blurb={dataAccess} />
 
       <Header text="Contact" />
-      <Blurb blurb={blurb2} />
+
       <Blurb blurb={contactus} />
       <SocialArea socialLinks={socialLinks} />
     </StyledContent>

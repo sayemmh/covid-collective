@@ -1,5 +1,4 @@
 import React from "react";
-import { Header } from "./components/header";
 import { Body } from "./components/body";
 import { injectGlobal } from "styled-components";
 import { mobileScreenSize } from "styleguide/breakpoints";

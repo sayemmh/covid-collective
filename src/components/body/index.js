@@ -20,7 +20,6 @@ import { Footer } from "../footer";
 import { headerHeight } from "styleguide/breakpoints";
 import { ImageBlob } from "./imageblob";
 import { LogoBlob } from "./logoblob";
-import heart from "../../assets/profile.jpg";
 import logo from "../../assets/logo.jpg";
 import { SurveyButton } from "./surveybutton";
 import { Background } from "./background";

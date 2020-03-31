@@ -3,12 +3,12 @@ import { Button } from "semantic-ui-react";
 import styled from "styled-components";
 import { mobileScreenSize } from "styleguide/breakpoints";
 
-export const SurveyButton = () => (
+export const HealthySurveyButton = () => (
   <Button
-    onClick={() => window.open("https://forms.gle/NjkLp5xTVaUmv7cf8")}
+    onClick={() => window.open("https://forms.gle/wUChYFb5ViBuKCkWA")}
     size="huge"
     color="blue"
   >
-    I'm Sick
+    I'm Healthy
   </Button>
 );

@@ -21,8 +21,8 @@ import { headerHeight } from "styleguide/breakpoints";
 import { ImageBlob } from "./imageblob";
 import { LogoBlob } from "./logoblob";
 import logo from "../../assets/logo.jpg";
-import { SurveyButton } from "./surveybutton";
-import { Background } from "./background";
+import {  SurveyButton } from "./surveybutton";
+import {  HealthySurveyButton } from "./healthysurveybutton";
 
 console.log(headerHeight);
 const StyledContent = styled.main`
@@ -46,6 +46,7 @@ export const Body = () => (
       <Blurb blurb={blurb} />
       <Blurb blurb={blurb2} />
       <SurveyButton />
+      <HealthySurveyButton />
       <LogoBlob imageUrl={logo} />
       <Title name="Covid Data Collective" />
       <Blurb blurb={whoweare} />

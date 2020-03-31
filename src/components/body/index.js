@@ -46,6 +46,7 @@ export const Body = () => (
       <Blurb blurb={blurb} />
       <Blurb blurb={blurb2} />
       <SurveyButton />
+      <Blurb blurb="If you're not showing symptoms:" />
       <HealthySurveyButton />
       <LogoBlob imageUrl={logo} />
       <Title name="Covid Data Collective" />

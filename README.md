@@ -1,4 +1,8 @@
-# Covid Collective Site
+# Covid Collective
+
+Crowdsourcing Covid-19 Symptoms Data
+
+https://www.coviddatacollective.fyi/
 
 ### Requirements
 

@@ -51,7 +51,7 @@ export const Body = () => (
       <Blurb blurb="If you're not showing symptoms:" />
       <HealthySurveyButton />
       <Header text="Our submission map" />
-      <ImageBlob imageUrl={map} />
+      <LogoBlob imageUrl={map} />
 
       <LogoBlob imageUrl={logo} />
       <Title name="Covid Data Collective" />

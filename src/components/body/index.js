@@ -21,6 +21,7 @@ import { headerHeight } from "styleguide/breakpoints";
 import { ImageBlob } from "./imageblob";
 import { LogoBlob } from "./logoblob";
 import logo from "../../assets/logo.jpg";
+import map from "../../assets/map.jpg";
 import {  SurveyButton } from "./surveybutton";
 import {  HealthySurveyButton } from "./healthysurveybutton";
 
@@ -40,6 +41,7 @@ const Wrapper = styled.div`
 `;
 
 export const Body = () => (
+  
   <Wrapper>
     <StyledContent>
       <Title name={calltoaction} />
@@ -48,6 +50,9 @@ export const Body = () => (
       <SurveyButton />
       <Blurb blurb="If you're not showing symptoms:" />
       <HealthySurveyButton />
+      <Header text="Our submission map" />
+      <ImageBlob imageUrl={map} />
+
       <LogoBlob imageUrl={logo} />
       <Title name="Covid Data Collective" />
       <Blurb blurb={whoweare} />

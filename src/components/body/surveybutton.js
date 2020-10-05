@@ -5,7 +5,7 @@ import { mobileScreenSize } from "styleguide/breakpoints";
 
 export const SurveyButton = () => (
   <Button
-    onClick={() => window.open("https://forms.gle/NjkLp5xTVaUmv7cf8")}
+    onClick={() => window.open("https://www.surveymonkey.com/r/VHBQH7K")}
     size="huge"
     color="blue"
   >
